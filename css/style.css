@@ -51,3 +51,35 @@
     text-decoration: underline;
     color: #17A2B8;
 }
+
+#main-employment .horizontal-line {
+    border-color: #7F0467;
+    margin-top: 5.5rem;
+    border-width: 3px;
+}
+
+.badge-pink {
+    color: #fff;
+    background-color: #7F0467;
+}
+
+.badge-white {
+    color: #7F0467;
+    background-color: #fff;
+}
+
+#main-portfolio img:hover {
+    transform: scale(1.1);
+    transition-property: transform;
+    transition-duration: .5s;
+}
+
+#main-education .horizontal-line {
+    border-color: #fff;
+    margin-top: 5.5rem;
+    border-width: 3px;
+}
+
+#main-footer {
+    padding: 4rem 0;
+}
