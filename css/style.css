@@ -22,13 +22,17 @@
     background-image: url('../image/pexels-designecologist-1779487.jpg');
     position: relative;
     background-size: cover;
-    background-position-y: -100px;
+    width: 100vw;
     background-attachment: fixed;
     background-repeat: no-repeat;
 }
 
-#showcase .text-title {
-    margin-top: 25vh;
+#showcase .text-title-sm {
+    margin-top: 45vh;
+}
+
+#showcase .text-title-md {
+    margin-top: 30vh;
 }
 
 .dark-overlay {
